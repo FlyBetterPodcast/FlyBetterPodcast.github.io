@@ -8,14 +8,23 @@
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
-
-    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/index.css" <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <div class="container w-50">
     <body>
       <div class="text-center">
-        <img src="./logo.png" class="img-fluid" alt="Responsive image" />
+        <img src="./logo2.png" class="img-fluid" alt="Responsive image" />
+      </div>
+
+      <div class="row">
+        <div class="col text-center">
+          <a
+            class="btn btn-primary"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfxJNkSeIqJIti6Tw27BgeRdFJ6r-YuclsqxAqk0ID2lHkhOA/viewform"
+            >Register Now!
+          </a>
+        </div>
       </div>
 
       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -80,7 +89,7 @@
           >
         </li>
       </ul>
-      <div class="tab-content" id="pills-tabContent">
+      <div class="tab-content pb-2" id="pills-tabContent">
         <div
           class="tab-pane fade show active"
           id="pills-about"
@@ -144,21 +153,33 @@
         >
           Coming Soon!
         </div>
+        <div
+          class="tab-pane fade"
+          id="pills-register"
+          role="tabpanel"
+          aria-labelledby="pills-register-tab"
+        ></div>
+      </div>
+
+      <!-- <div class="border-top my-5"></div> -->
+
+      <div>
+        <hr class="divider mb-5" />
       </div>
 
       <div
         id="carouselExampleInterval"
-        class="carousel slide pt-5 pb-5"
+        class="carousel slide"
         data-ride="carousel"
       >
         <div class="carousel-inner">
           <div class="carousel-item active" data-interval="10000">
             <img src="./gameplay.png" class="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item" data-interval="2000">
+          <div class="carousel-item" data-interval="10000">
             <img src="./gameplay2.png" class="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-interval="10000">
             <img src="./gameplay3.png" class="d-block w-100" alt="..." />
           </div>
         </div>
